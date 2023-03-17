@@ -20,7 +20,7 @@ esp32:
     version: latest
 
 external_components:
-  - source: components
+  - source: github://syssi/esphome-jk-bms@main
 
 wifi:
   ssid: !secret wifi_ssid
