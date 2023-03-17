@@ -19,3 +19,4 @@ Connect your ESP32 via USB, then build and run the project:
 
 ### Notes
 - A relay for enabling an external active balancer can be connected to GPIO16.
+- Any ESP32 dev board that exposes GPIO16 is suitable for this project. As BLE is used for connectivity to the BMS, there are no other inputs or outputs required.
